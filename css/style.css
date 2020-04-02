@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+header {
+    background-color: #ffffff;
+    color: grey;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.top-nav {
+    display: flex;
+    width: 80%;
+   margin: auto;
+   align-items: center;     /* vertical alignment, in this case */
+   justify-content: space-around;
+  }
+
+.logo {
+  flex-basis: 15%
+}
+
+.search {
+  flex-basis: 60%;
+  align-self:center;
+  margin-left: 50px;
+  }
+
+.menu-icon {
+  flex-basis: 25%
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width:90%;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+.logoimg img {
+    width: 200px;
+}
+
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px 30px;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    float: left;
+    width: 75%;
+    background: white;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    text-align: center;
+    width: 12%;
+    margin-left: 2px;
+    padding: 11px;
+    background: #E48122;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  form.example button:hover {
+    background: #E48126;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .icon-search {
+    position: absolute;
+    padding-left: 10px;
+    top: 28px;
+    color: grey;
+    text-align: center;
+  }
+
+  .user-icon {
+    color: black;
+    padding-right: 5px;
+    font-size: 18px;
+  }
+
+  .login-text{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .arrow-down{
+    color: black;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+
